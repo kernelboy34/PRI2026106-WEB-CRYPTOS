@@ -1,0 +1,53 @@
+.chart-with-noticias {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .search-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 300px;
+  }
+  
+  .search-button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .noticias-container {
+    margin-top: 20px;
+  }
+  
+  .noticia {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .noticia p {
+    margin: 5px 0;
+  }
+  
+  .loading {
+    margin-top: 20px;
+    font-style: italic;
+  }
+  
+  .error {
+    margin-top: 20px;
+    color: red;
+  }
+  
