@@ -1,19 +1,22 @@
-import logo from './logo.svg';
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import LandingPage from './landingPage';
-import SignIn from './signin';
-import './App.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import PizzaList from './PizzaList';
+import CreatePizza from './components/CreatePizza';
+import EditPizza from './components/EditPizza';
 
 function App() {
   return (
     <Router>
-      <Routes>
-        <Route path="/" element={<LandingPage />} />
-        <Route path="/login" element={<SignIn/>} />
-      </Routes>
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<PizzaList />} />
+          <Route path="/create" element={<CreatePizza />} />
+          <Route path="/edit/:id" element={<EditPizza />} />
+        </Routes>
+      </div>
     </Router>
   );
 }
 
 export default App;
+
